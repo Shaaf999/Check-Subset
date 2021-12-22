@@ -20,13 +20,13 @@ for i in range(T):
  
 # method 3 
 def check():
-    a=input()
-    a1=set(map(int(input().split()))
-    b=input()
-    b1=set(map(input().split()))
+    a=int(input())
+    a1=set(map(int,input().split()))
+    b=int(input())
+    b1=set(map(int,input().split()))
     l=[]
     for i in a1:
-        if i on b1:
+        if i in b1:
             l.append(i)
     l=set(l)        
     if l == a1:
@@ -37,4 +37,4 @@ def check():
  
 T=int(input())
 for i in range(T):
-check()
+    check()
