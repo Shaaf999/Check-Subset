@@ -1,0 +1,20 @@
+T=int(input())
+for i in range(T):
+    a=input()
+    a1=set(input().split())
+    b=input()
+    b1=set(input().split())
+    if a1.issubset(b1): #---> to check if elements of set  a in set b
+        print(True)
+    else:
+        print(False)
+        
+#method 2
+T=int(input())
+for i in range(T):
+    a=input()
+    a1=set(input().split())
+    b=input()
+    b1=set(input().split())
+    print(a1.issubset(b1))
+ 
