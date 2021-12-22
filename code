@@ -18,3 +18,23 @@ for i in range(T):
     b1=set(input().split())
     print(a1.issubset(b1))
  
+# method 3 
+def check():
+    a=input()
+    a1=set(map(int(input().split()))
+    b=input()
+    b1=set(map(input().split()))
+    l=[]
+    for i in a1:
+        if i on b1:
+            l.append(i)
+    l=set(l)        
+    if l == a1:
+        print(True)
+    else:
+        print(False)
+        
+ 
+T=int(input())
+for i in range(T):
+check()
